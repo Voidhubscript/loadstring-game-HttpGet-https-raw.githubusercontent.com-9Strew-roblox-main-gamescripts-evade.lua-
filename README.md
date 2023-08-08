@@ -6,9 +6,9 @@ local localplayer = Players.LocalPlayer;
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/9Strew/roblox/main/proc/jans"))()
 local Esp = loadstring(game:HttpGet("https://raw.githubusercontent.com/9Strew/roblox/main/proc/kiriotesp"))()
-Esp.Enabled = false
-Esp.Tracers = false
-Esp.Boxes = false
+Esp.đã bật = false
+Esp.hướng chỉ dẫn = false
+Esp.hộp = false
 
 local Window = Library:CreateWindow("❤️🇻🇳Evade", Vector2.new(500, 300), Enum.KeyCode.RightShift)
 local Evade = Window:CreateTab("Tổng quan")
@@ -140,9 +140,9 @@ Visuals:AddColorpicker("Downed Player Color", Color3.fromRGB(255,255,255), funct
     Settings.DownedColor = Color
 end)
 
-Credits:AddLabel("Developed By xCLY And batusd")
-Credits:AddLabel("UI Lib: Jans Lib")
-Credits:AddLabel("ESP Lib: Kiriot")
+Credits:AddLabel("Developed By rechedmcvn")
+Credits:AddLabel("UI Lib: rechedmcvn")
+Credits:AddLabel("ESP Lib: rechedmcvn")
 Configs:CreateConfigSystem()
 
 local TypeLabelC5 = FarmStats:AddLabel('Auto Farm Stats')
@@ -189,7 +189,7 @@ local revive = function()
     end
 end
 
---Kiriot
+--rechedmcvn
 Esp:AddObjectListener(WorkspacePlayers, {
     Color =  Color3.fromRGB(255,0,0),
     Type = "Model",
