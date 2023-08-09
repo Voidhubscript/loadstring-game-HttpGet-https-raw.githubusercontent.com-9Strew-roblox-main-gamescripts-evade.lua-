@@ -1,6 +1,6 @@
 #REDSTONE_HuB
-local WorkspacePlayers = game:GetService("Workspace").Game.Players;
-local Players = game:GetService('Players');
+local WorkspacePlayers = game:GetService("Không gian làm việc").Game.Players;
+local Players = game:GetService('người chơi');
 local localplayer = Players.LocalPlayer;
 -- semicolon but cool :red_square:
 
