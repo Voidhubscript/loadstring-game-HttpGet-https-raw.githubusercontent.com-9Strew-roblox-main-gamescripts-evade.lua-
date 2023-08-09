@@ -1,4 +1,4 @@
-# REDSTONE_HuB
+#REDSTONE_HuB
 local WorkspacePlayers = game:GetService("Workspace").Game.Players;
 local Players = game:GetService('Players');
 local localplayer = Players.LocalPlayer;
@@ -28,7 +28,7 @@ local World = Gamee:CreateSector("World", "left")
 getgenv().Settings = {
     moneyfarm = false,
     afkfarm = false,
-    Không Có Máy Ảnh Lắc = flase,
+    Không Có Máy Ảnh Lắc = false,
     người chơi bị hạ gục = false,
     tự động hồi sinh = false,
     lấy Vé= false,
@@ -364,4 +364,4 @@ local GC = getconnections or get_signal_cons
 			VirtualUser:CaptureController()
 			VirtualUser:ClickButton2(Vector2.new())
 		end)
-	end
+end)
